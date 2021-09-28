@@ -3,7 +3,7 @@
 14 Patterns to Ace Any Coding Interview Question
 ### 1. Sliding Window
 - [ ] Maximum sum subarray of size ‘K’ (easy)
-- [ ] Longest substring with ‘K’ distinct characters (medium)
+- [x] Longest substring with ‘K’ distinct characters (medium)
 - [ ] String anagrams (hard)
 
 ### 2. Two Pointers or Iterators
