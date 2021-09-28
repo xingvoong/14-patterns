@@ -37,7 +37,6 @@ o	If hashmap contains k + 1 distinct characters,
 o	Update max_len
 */
 
-
 var lengthOfLongestSubstringKDistinct = function(s, k) {
   var n = s.length
   var right = 0
