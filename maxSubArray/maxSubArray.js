@@ -56,3 +56,12 @@ var test = function() {
 }
 
 test()
+
+/*
+Time:  O(N), where N is the length of nums
+We iterate through every element of nums exactly once.
+
+Space complexity: O(1)
+no matter how long the input is, we are only using 2 variables.
+
+*/
