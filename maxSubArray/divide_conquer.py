@@ -55,3 +55,16 @@ def test():
   print('Passed test')
 
 test()
+
+'''
+Time: O(N.logN), where N is the length of nums.
+
+On our first call to findBestSubarray, we use for loops to visit every element of nums.  Then, we split the array in half and call findBestSubarray with each half.  Both those calls will then iterate through element in that half, which combined is every element of nums again.  Then, both those halves wil be split in half, and 4 more calls to findBestSubarray will happen, each with a quarter of nums.
+Every time the array is split, we still need to handle every element of the original input nums.
+We have to do this log N times since that's how many times an array can be split in half.
+
+Space: O(logN), where N is the length of nums
+the extra space we use relative to input size is solely occupied by the recursion stack.
+Each time the array gets split in half, another call of findBestSubarray will be added to the recursion stack, until calls start to get resolved by the base case -  remember, the base case happens at an empty array, which occurs after log N calls.
+
+'''
