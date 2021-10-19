@@ -58,17 +58,16 @@ def backspaceCompare(s, t):
       else:
         break
 
-  print("hello?")
-  # if two actual characters are different
-  if i >= 0 and j >= 0 and s[i] != t[j]:
-    return False
-  # if expecting to compare char vs nothing
-  if (i >= 0) != (j>=0):
-    return False
+    # if two actual characters are different
+    if i >= 0 and j >= 0 and s[i] != t[j]:
+      return False
+    # if expecting to compare char vs nothing
+    if (i >= 0) != (j>=0):
+      return False
 
-  i -= 1
-  j -= 1
+    i -= 1
+    j -= 1
 
   return True
 
-backspaceCompare("ab#c", "ad#c")
+print(backspaceCompare("ab#c", "ad#c"))
