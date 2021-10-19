@@ -11,5 +11,10 @@
 - [x] Triplets that sum to zero (medium)
 - [ ] Comparing strings that contain backspaces (medium)
 
+### 3. Fast and Slow Pointers
+- [x] Linked List Cycle (easy)
+- [ ] Palindrome Linked List (medium)
+- [ ] Cycle in a Circular Array (hard)
+
 ## Acknowledgements
 - [HackerNoon, 14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
