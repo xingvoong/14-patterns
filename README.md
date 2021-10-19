@@ -8,7 +8,7 @@
 
 ### 2. Two Pointers or Iterators
 - [x] Squaring a sorted array (easy)
-- [ ] Triplets that sum to zero (medium)
+- [x] Triplets that sum to zero (medium)
 - [ ] Comparing strings that contain backspaces (medium)
 
 ## Acknowledgements
