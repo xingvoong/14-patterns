@@ -16,5 +16,9 @@
 - [ ] Palindrome Linked List (medium)
 - [ ] Cycle in a Circular Array (hard)
 
+### 4. Merge Intervals
+- [ ] Intervals Intersection (medium)
+- [ ] Maximum CPU Load (hard)
+
 ## Acknowledgements
 - [HackerNoon, 14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
