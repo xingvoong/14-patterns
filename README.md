@@ -17,7 +17,7 @@
 - [ ] Cycle in a Circular Array (hard)
 
 ### 4. Merge Intervals
-- [ ] Intervals Intersection (medium)
+- [x] Intervals Intersection (medium)
 - [ ] Maximum CPU Load (hard)
 
 ## Acknowledgements
