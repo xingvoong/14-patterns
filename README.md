@@ -21,7 +21,7 @@
 - [ ] Maximum CPU Load (hard)
 
 ### 5. Cyclic sort
-- [ ] Find the Missing Number (easy)
+- [x] Find the Missing Number (easy)
 - [ ] Find the Smallest Missing Positive Number (medium)
 
 ## Acknowledgements
