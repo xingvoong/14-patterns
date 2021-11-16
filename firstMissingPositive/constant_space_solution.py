@@ -1,15 +1,25 @@
 def firstMissingPositive(nums):
     n = len(nums)
-    for i in range(len(nums)):
-        # only sort in range: 1 <= i <= len(nums)
+    i = 0
+    while i < n:
+        print("i", i)
+        # only sort in range: 1 <= nums[i] <= len(nums)
+        j = nums[i] - 1
         if nums[i] > 0 and nums[i] <= len(nums) and nums[i] != i + 1:
-            j = nums[i] - 1
             nums[i], nums[j] = nums[j], nums[i]
-    print(nums)
+        else:
+            i += 1
+    # while i < n:
+    #     j = nums[i] - 1
+    #     # put num[i] to the correct place if nums[i] in the range [1, n]
+    #     if 0 <= j < n and nums[i] != nums[j]:
+    #         nums[i], nums[j] = nums[j], nums[i]
+    #     else:
+    #         i += 1
 
     # but when find for the position, I need to consider 0 and not negative number
     for k in range(n):
-        if nums[k] >= 0 and nums[k] != k + 1:
+        if nums[k] != k + 1:
             return k + 1
     return n + 1
 
@@ -32,4 +42,12 @@ def firstMissingPositive(nums):
 
 
 # test()
-print(firstMissingPositive([-1, 4, 2, 1, 9, 10]))
+
+print(firstMissingPositive([1, 1]))
+
+"""
+if I do a for loop,
+every postion get one swap, but after swapping, one value may not be at the right position.
+So I need to use while loop,
+    I need to swap until all the values are at the right position
+"""
