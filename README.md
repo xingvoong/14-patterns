@@ -24,6 +24,10 @@
 - [x] Find the Missing Number (easy)
 - [ ] Find the Smallest Missing Positive Number (medium)
 
+### 6. In-place reversal of linked list
+- [ ] Reverse a sub list (medium)
+- [ ] Reverse every K-element sub-list (medium)
+
 ## Acknowledgements
 - [HackerNoon, 14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
