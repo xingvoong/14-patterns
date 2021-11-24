@@ -19,6 +19,11 @@ Constraints:
 #     def __init__(self, val = 0, next = None):
 #         self.val = val
 #         self.next = next
+'''
+1: move the pointers until they reach the proper starting point in the list
+2: Iteratively reverse the nodes until n becomes 0
+3: Adjust the final connections as explained in the algorithm (the last few nodes)
+'''
 
 class solution(object):
   def reverseBetween(head, left, right):
@@ -28,3 +33,34 @@ class solution(object):
     :type right: int
     :rtype: ListNode
     """
+
+    # empty list
+    if not head:
+      return None
+
+    # move the 2 pointers until they reach the proper starting point
+    # in the list
+    cur, prev = head, None
+    while m > 1:
+      prev = cur
+      cur = cur.next
+      m, n = m - 1, n - 1
+
+    # the two pointers that will fix the final connections.
+    tail, con = cur, prev
+
+    # iteratively reverse the nodes until n becomes 0:
+
+
+
+'''
+I: head, left, right
+head = [5], left = 1, right = 1
+
+O:
+
+C:
+
+E:
+
+'''
