@@ -25,7 +25,7 @@
 - [ ] Find the Smallest Missing Positive Number (medium)
 
 ### 6. In-place reversal of linked list
-- [ ] Reverse a sub list (medium)
+- [x] Reverse a sub list (medium)
 - [ ] Reverse every K-element sub-list (medium)
 
 ## Acknowledgements
