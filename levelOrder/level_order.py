@@ -24,3 +24,40 @@ def levelOrder(root):
   :type root: TreeNode
   :rtype: List[List[int]]
   """
+  levels = []
+  if not root:
+    return levels
+
+  def helper(node, level):
+    # start the current level
+    if len(levels) == level:
+      levels.append([])
+
+    # append the current node value
+    levels[level].append(node.val)
+
+    # process child nodes for the next level
+    if node.left:
+      helper(node.left, level + 1)
+    if node.right:
+      helper(node.right, level + 1)
+
+  helper(root, 0)
+  return levels
+
+'''
+Complexity Analysis
+time: O(N), visit each node once
+space: O(N), to keep the output structure which contains N ndoe values
+
+'''
+
+'''
+Algo
+- if the length of result is equal to the current tree level, create a new level for result.
+- append the value of the current node
+- if left node is not null, recursive on the left
+- if right node is not null, recursive on the right.
+- call the helper function on level 0
+
+'''
