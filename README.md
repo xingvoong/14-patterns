@@ -35,6 +35,10 @@
   - [ ] Iterative
 - [ ] Zigzag Traversal (medium)
 
+### Learn and solve tree traversal
+- [ ] Learn recursive solutions first
+- [ ] Learn iterative solution later
+
 ## Acknowledgements
 - [HackerNoon, 14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
