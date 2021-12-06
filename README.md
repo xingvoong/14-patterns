@@ -29,11 +29,21 @@
 - [ ] Reverse every K-element sub-list (medium)
   - [ ] Recursive
   - [ ] Iterative
-### 7. Tree BFS
+### 7. Tree BFS, use a queue
+Use a queue
 - [ ] Binary Tree Level Order Traversal (easy)
-  - [ ] Recursive
+  - [x] Recursive
   - [ ] Iterative
 - [ ] Zigzag Traversal (medium)
+
+### 8. Tree DFS, use a stack
+- [ ] Sum of Path Numbers (medium)
+  - [ ] recursive
+  - [ ] Iterative
+
+- [ ] All Paths for a Sum (medium)
+  - [ ] recursive
+  - [ ] Iterative
 
 ### Learn and solve tree traversal
 - [ ] Learn recursive solutions first
