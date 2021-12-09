@@ -34,8 +34,26 @@ class TreeNode:
     if self.right:
       self.right.PrintTree()
 
-root = TreeNode(12)
-root.insert(6)
+  # in-order traversal, left, node, right
+  # create an empty list,
+  # add left node first followed by the root or parent node
+
+  def inorderTraversal(self, root):
+    res = []
+    if root:
+      res = self.inorderTraversal(root.left)
+      res.append(root.value)
+      res += self.inorderTraversal(root.right)
+
+    return res
+
+
+
+root = TreeNode(27)
 root.insert(14)
-root.insert(3)
-root.PrintTree()
+root.insert(35)
+root.insert(10)
+root.insert(19)
+root.insert(31)
+root.insert(42)
+print(root.inorderTraversal(root))
