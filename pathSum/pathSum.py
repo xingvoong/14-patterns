@@ -58,6 +58,18 @@ class TreeNode:
         return True
       return False
 
+    # hasPathSum improve
+    # subtract the value from target at everynode
+    # if it is a leaf, return whether it is true or false
+    # return on the left branch and the right branch
+    def hasPathSumImprove(self, root, targetSum):
+      if root:
+        num = targetSum - root.value
+        if not root.left and not root.right:
+          return num == 0
+        else:
+          return self.hasPathSumImprove(root.left, num) or self.hasPathSumImprove(root.right, num)
+
 root = TreeNode(27)
 root.insert(14)
 root.insert(35)
@@ -67,4 +79,15 @@ root.insert(31)
 root.insert(42)
 # root.PrintTree()
 # allPath = [[27, 14, 10], [27, 14, 19], [27, 35, 31], [27, 35, 42]]
-print(root.hasPathSum(root, 51))
+# print(root.hasPathSum(root, 51))
+print(root.hasPathSumImprove(root, 51))
+
+'''
+Complexity:
+hasPathSumImprove:
+time: O(N) visit each node 1
+space:
+worst case: if the tree is unbalance: O(N), screw left or screw right
+average case or best case: the tree is balance, the height is O(logN)
+
+'''
