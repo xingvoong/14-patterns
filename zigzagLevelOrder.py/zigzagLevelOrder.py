@@ -98,8 +98,10 @@ complexity
 Let N be the number of nodes in the tree
 time: levelOrer +  1 for loop * reverse list
 
-levelOrder: O(N)
-loop and then reverse: O(log(N)) * O(N)
+levelOrder: O(N), because I visit each node of the tree 1
+
+loop and then reverse: O(log(N)) / 2 * 2
+=> total runtime: O(N)
 
 space: O(N)
 
