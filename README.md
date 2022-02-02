@@ -31,19 +31,25 @@
   - [ ] Iterative
 ### 7. Tree BFS, use a queue
 Use a queue
-- [ ] Binary Tree Level Order Traversal (easy)
+- [x] Binary Tree Level Order Traversal (easy)
   - [x] Recursive
-  - [ ] Iterative
-- [ ] Zigzag Traversal (medium)
+  - [x] Iterative
+- [x] Zigzag Traversal (medium)
+- [ ] Minimum Depth of Binary Tree (Easy)
+- [ ] Average of Levels in Binary Tree (Easy)
+- [ ] Cousins in Binary Tree (Easy)
+- [ ] Binary Tree Level Order Traversal II (Medium)
+- [ ] Binary Tree Vertical Order Traversal (Medium)
+- [ ] N-ary Tree Level Order Traversal (Medium)
 
 ### 8. Tree DFS, use a stack
-- [ ] Sum of Path Numbers (medium)
-  - [ ] recursive
-  - [ ] Iterative
+- [x] Sum of Path Numbers (medium)
+  - [x] recursive
+  - [x] Iterative
 
-- [ ] All Paths for a Sum (medium)
-  - [ ] recursive
-  - [ ] Iterative
+- [x] All Paths for a Sum (medium)
+  - [x] recursive
+  - [x] Iterative
 
 ### Learn and solve tree traversal
 - [ ] Learn recursive solutions first
