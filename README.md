@@ -52,7 +52,7 @@ Use a queue
   - [x] Iterative
 
 ### 9. 2 Heaps
-- [ ] Find the Median of a Number Stream (medium)
+- [x] Find the Median of a Number Stream (medium)
 
 ### 10. Subsets
 - [ ] Subsets With Duplicates (easy)
