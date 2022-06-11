@@ -51,9 +51,18 @@ Use a queue
   - [x] recursive
   - [x] Iterative
 
+### 9. 2 Heaps
+- [x] Find the Median of a Number Stream (medium)
+
+### 10. Subsets
+- [ ] Subsets With Duplicates (easy)
+- [ ] String Permutations by changing case (medium)
+
 ### Learn and solve tree traversal
 - [ ] Learn recursive solutions first
 - [ ] Learn iterative solution later
+
+
 
 ## Acknowledgements
 - [HackerNoon, 14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
