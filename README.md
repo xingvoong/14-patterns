@@ -55,8 +55,12 @@ Use a queue
 - [x] Find the Median of a Number Stream (medium)
 
 ### 10. Subsets
-- [ ] Subsets With Duplicates (easy)
-- [ ] String Permutations by changing case (medium)
+- [x] Subsets With Duplicates (easy)
+- [x] String Permutations by changing case (medium)
+
+### 11. Modify Binary Search
+- [ ] Binary Search
+- [ ] Infinite Array (medium)
 
 ### Learn and solve tree traversal
 - [ ] Learn recursive solutions first
