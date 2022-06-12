@@ -16,3 +16,53 @@ Explanation: 2 does not exist in nums so return -1
 '''
 
 def search(nums, target):
+
+    def binary_search(start, end):
+        if end >= start:
+            mid = start + (end - start) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                return binary_search(start, mid - 1)
+            else:
+                return binary_search(mid + 1, end)
+        else:
+            return -1
+
+    return binary_search(0, len(nums)-1)
+
+print(search([-1, 0, 3, 5, 9, 12], 9))
+print(search([-1, 0, 3, 5, 9, 12], 2))
+
+'''
+time: O(N)
+space: O(N)
+for recursive stack, if I dont find it, it will run for n time
+
+'''
+
+
+def search(nums, target):
+    start = 0
+    end = len(nums) - 1
+
+    while start <= end:
+        mid = start + (end - start) // 2
+        if nums[mid] == target:
+            return mid
+        elif target < nums[mid]:
+            end = mid - 1
+        else:
+            start = mid + 1
+    return -1
+
+print(search([-1, 0, 3, 5, 9, 12], 9))
+print(search([-1, 0, 3, 5, 9, 12], 2))
+
+'''
+time: O(N)
+- a while loop, go through all of them and dont find the result
+space: O(1)
+- only space for mid, start and end
+
+'''
