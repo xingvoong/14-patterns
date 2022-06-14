@@ -59,8 +59,9 @@ Use a queue
 - [x] String Permutations by changing case (medium)
 
 ### 11. Modify Binary Search
-- [ ] Binary Search
-- [ ] Infinite Array (medium)
+- [x] Binary Search
+- [x] Infinite Array (medium)
+- [x] Search in a Sorted Array of Unknown Size
 
 ### Learn and solve tree traversal
 - [ ] Learn recursive solutions first
