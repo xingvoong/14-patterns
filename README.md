@@ -63,6 +63,11 @@ Use a queue
 - [x] Infinite Array (medium)
 - [x] Search in a Sorted Array of Unknown Size
 
+### 12. Top K elements
+- [x] Top ‘K’ Frequent Numbers (medium)
+- [ ] Kth Largest Element in an Array
+- [ ] K Closest Points to Origin 
+
 ### Learn and solve tree traversal
 - [ ] Learn recursive solutions first
 - [ ] Learn iterative solution later
