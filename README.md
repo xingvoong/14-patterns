@@ -65,8 +65,21 @@ Use a queue
 
 ### 12. Top K elements
 - [x] Top ‘K’ Frequent Numbers (medium)
-- [ ] Kth Largest Element in an Array
-- [ ] K Closest Points to Origin 
+- [x] Kth Largest Element in an Array
+- [x] K Closest Points to Origin 
+
+
+### 13: k ways merge
+- [x] Merge K Sorted Lists
+- [x] smallest sum k pair
+- [x] kth-smallest-element-in-a-sorted-matrix/
+
+### 14: Topological sort
+- [ ] Minimum height of a tree (hard): https://leetcode.com/problems/minimum-height-trees/
+- [ ] Course Schedule: https://leetcode.com/problems/course-schedule/
+
+
+### 
 
 ### Learn and solve tree traversal
 - [ ] Learn recursive solutions first
